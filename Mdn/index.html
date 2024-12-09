@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* li[class="a"]{
+            background-color: yellow;
+        }
+        li[class]{
+            font-size: 200%;
+        }
+
+        li[class~="a"]{
+            color: rebeccapurple;
+        } */
+
+      /* li[class] {
+        font-size: 200%;
+      } */
+
+      li[class="a"] {
+        background-color: yellow;
+      }
+
+      li[class~="a"] {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <ul>
+        <li class="a"><a href="">Satu</a></li>
+        <li class="a b"><a href="">Dua</a></li>
+        <li class="a b c"><a href="">Tiga</a></li>
+    </ul> -->
+
+    <h1>Attribute presence and value selectors</h1>
+    <ul>
+      <li>Item 1</li>
+      <li class="a">Item 2</li>
+      <li class="a b">Item 3</li>
+      <li class="ab">Item 4</li>
+    </ul>
+  </body>
+</html>

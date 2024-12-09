@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 300px;
+    min-width: 200px;
+    margin: ;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+.belajardisplay{
+    display: flex;
+}
+  
+.belajardisplay .belajar {
+    flex: 1;
+    margin: 0,0.5em;
+    padding: 0,0.5em;
+}
+/*em*/
+/*.belajar-em h2 {
+    font-size: 2em;
+}
+.belajar-em p {
+    font-size: 1.5em;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

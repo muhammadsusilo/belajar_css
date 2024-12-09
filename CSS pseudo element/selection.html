@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>::selection | pseudo element</title>
+    <!-- untuk membuat teks yang dipilih menjadi berwarna-->
+    <style>
+      body {
+        max-width: 40%;
+        margin: auto;
+        font-size: 1rem;
+      }
+      h2::selection {
+        color: green;
+        background-color: rebeccapurple;
+      }
+      p::selection {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Lorem ipsum dolor sit amet</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+      rerum quisquam minus, quo aut earum repellat nam iusto ea nesciunt
+      consequuntur incidunt eos nulla
+    </p>
+    <ul class="pertama">
+      <li><a href=""></a>Home</li>
+      <li><a href=""></a>Home</li>
+      <li><a href=""></a>Home</li>
+    </ul>
+
+    <ol type="i" class="kedua">
+      <li><a href=""></a>About</li>
+      <li><a href=""></a>About</li>
+      <li><a href=""></a>About</li>
+      <li><a href=""></a>About</li>
+    </ol>
+  </body>
+</html>

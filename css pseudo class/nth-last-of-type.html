@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>:nth-last-of-type | pseudo class</title>
+    <!-- pemilih mencocokkan setiap elemen yang merupakan anak ke-n, dari tipe tertentu, dari induknya, dihitung dari anak terakhir.
+    n dapat berupa angka, kata kunci, atau rumus. -->
+
+    hanya memilih element yang di tuju
+
+    <style>
+      /* cara ke 1 */
+      /* p:nth-last-of-type(3n+0) {
+        background-color: orange;
+      } */
+      /* cara ke 2 */
+ /*   dengan menambahkan element odd dan even 
+    ganjil dan genap*/
+      p:nth-last-of-type(odd) {
+        background-color: blue;
+    }
+
+    p:nth-last-of-type(even) {
+        background-color: red;
+    }
+    </style>
+  </head>
+  <body>
+    <h1 class="judul">Muhammad Susilo</h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing. <br />
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet. <br />
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet. <br />
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet. <br />
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet. <br />
+    </p>
+  </body>
+</html>

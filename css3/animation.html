@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Animation</title>
+    <style>
+        /*Property keyframes
+        @keyframes [name] {
+            from {
+              [property-css]
+              }
+             to {
+             [property-css]
+              }
+        }
+        */
+        /*Property animation
+        [name] [duration] [timing-function ]
+        [delay] [iteration-count  { angka | infinite} ] 
+        [direction { normal | reverse | alternate |alernate-reverse}]
+        [fill-mode {none | forwards | backwards  | both}] [play-state {running | paused}]
+        */
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: greenyellow;
+            animation: animationkotak 3s ease infinite;
+            animation-name: animationkotak;
+            animation-duration: 2s ;
+            animation-timing-function:ease ;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+        }
+        .kotak:hover {
+            
+        }
+        @keyframes animationkotak {
+            0% {
+                width: 200px;
+            }
+            50% {
+                width: 500px;
+                height: 200px;
+            }
+            100% {
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+</body>
+</html>

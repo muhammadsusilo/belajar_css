@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>:nth-last-child | pseudo class</title>
+    <!-- Memilih setiap elemen <p> yang merupakan anak kedua dari induknya, dihitung dari anak terakhir -->
+
+        ini kebelikan dari nth child
+       
+        bisa lihat di w3sch
+
+    <style>
+        /* cara ke 1 */
+    p:nth-child(3) {
+        background-color: orange;
+    }
+    /* cara ke 2 */
+    /* dengan menahkan element n dan tambah (+) atau (-) */
+
+    /* p:nth-child(3n+0) {
+        background-color: blue;
+    } */
+    /* p:nth-child(3n-1) {
+        background-color: blue;
+    } */
+
+    /* cara ke 3  
+    dengan menambahkan element odd dan even 
+    ganjil dan genap*/
+    /* p :nth-child(odd) {
+        background-color: blue;
+    }
+
+    p :nth-child(even) {
+        background-color: red;
+    } */
+
+    </style>
+  </head>
+  <body>
+    <h1 class="judul">Muhammad Susilo</h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing. <br />
+      <a href="#">Link Paragraft ke 1</a>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet. <br />
+      <a href="#">Link Paragraft ke 2</a>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet. <br />
+      <a href="#">Link Paragraft ke 3</a>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet. <br />
+      <a href="#">Link Paragraft ke 4</a>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet. <br />
+      <a href="#">Link Paragraft ke 5</a>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>:nth-last-of-type | pseudo class</title>
+
+    <!-- Memilih setiap elemen <p> yang merupakan elemen <1>  dari induknya -->
+<!-- 
+        mengambil seluruh elemen yang di tuju menurut saya
+       -->
+    <style>
+      /* cara ke 1 */
+      /* p:nth-of-type(2) {
+        background-color: red;
+      } */
+      /* cara ke 2 */
+      /* dengan menambahkan odd dan even atau ganjil dan genap */
+      /* p:nth-of-type(odd) {
+        background: red;
+      }
+
+      p:nth-of-type(even) {
+        background: blue;
+      } */
+      /* cara ke 3 */
+      /* p:nth-of-type(3n+0) {
+        background: red;
+      } */
+      p:nth-of-type(3n-1) {
+        background: red;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore
+      rerum officiis esse saepe blanditiis consequuntur aliquam iusto
+      dignissimos earum perspiciatis cumque doloremque architecto
+      necessitatibus, officia ea tempora ipsum? Eos!
+    </p>
+    <h1 class="judul">Muhammad Susilo</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing. <br /></p>
+    <p>Lorem ipsum dolor sit amet. <br /></p>
+    <p>Lorem ipsum dolor sit amet. <br /></p>
+    <p>Lorem ipsum dolor sit amet. <br /></p>
+    <p>Lorem ipsum dolor sit amet. <br /></p>
+  </body>
+</html>

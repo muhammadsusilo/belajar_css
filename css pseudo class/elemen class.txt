@@ -1,0 +1,62 @@
+:aktif a:aktif Memilih tautan aktif
+
+:checked input:checked Memilih setiap elemen <input> yang dicentang
+
+:disabled input:disabled Memilih setiap elemen <input> yang dinonaktifkan
+
+:empty p:empty Memilih setiap elemen <p> yang tidak memiliki turunan
+
+:enabled input:enabled Memilih setiap elemen <input> yang diaktifkan
+
+:anak pertama p:anak pertama Memilih setiap elemen <p> yang merupakan anak pertama dari induknya
+
+:first-of-type p:first-of-type Memilih setiap elemen <p> yang merupakan elemen <p> pertama dari induknya
+
+:focus input:focus Memilih elemen <input> yang memiliki fokus
+
+
+:hover a:hover Memilih tautan dengan mengarahkan mouse
+
+:in-range input:in-range Memilih elemen <input> dengan nilai dalam rentang tertentu
+
+:invalid input:invalid Memilih semua elemen <input> dengan nilai yang tidak valid
+
+:lang(bahasa) p:lang(it) Memilih setiap elemen <p> dengan nilai atribut lang yang dimulai dengan "it"
+
+:last-child p:last-child Memilih setiap elemen <p> yang merupakan anak terakhir dari induknya
+
+:last-of-type p:last-of-type Memilih setiap elemen <p> yang merupakan elemen <p> terakhir dari induknya
+
+:link a:link Memilih semua link yang belum dikunjungi
+
+:not(selector) :not(p) Memilih setiap elemen yang bukan merupakan elemen <p>
+
+:nth-child(n) p:nth-child(2) Memilih setiap elemen <p> yang merupakan anak kedua dari induknya
+
+:nth-last-child(n) p:nth-last-child(2) Memilih setiap elemen <p> yang merupakan anak kedua dari induknya, dihitung dari anak terakhir
+
+:nth-last-of-type(n) p:nth-last-of-type(2) Memilih setiap elemen <p> yang merupakan elemen <p> kedua dari induknya, dihitung dari anak terakhir
+
+:nth-of-type(n) p:nth-of-type(2) Memilih setiap elemen <p> yang merupakan elemen <p> kedua dari induknya
+
+:only-of-type p:only-of-type Memilih setiap elemen <p> yang merupakan satu-satunya elemen <p> dari induknya
+
+:only-child p:only-child Memilih setiap elemen <p> yang merupakan satu-satunya anak dari induknya
+
+:optional input:optional Memilih elemen <input> tanpa atribut "wajib".
+
+:out-of-range input:out-of-range Memilih elemen <input> dengan nilai di luar rentang yang ditentukan
+
+:read-only input:read-only Memilih elemen <input> dengan atribut "readonly" yang ditentukan
+
+:read-write input:read-write Memilih elemen <input> tanpa atribut "readonly".
+
+:required input:required Memilih elemen <input> dengan atribut "wajib" yang ditentukan
+
+:root root Memilih elemen root dokumen
+
+:target #news:target Memilih elemen #news yang aktif saat ini (mengklik URL yang berisi nama jangkar tersebut)
+
+:valid input:valid Memilih semua elemen <input> dengan nilai yang valid
+
+:visited a:visited Memilih semua tautan yang dikunjungi

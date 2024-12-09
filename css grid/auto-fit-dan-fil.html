@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid | Auto Fit & Auto Fill</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(206, 206, 206);
+      }
+      .container {
+        width: 60%;
+        margin: 50px auto;
+        border: 5px solid orange ;
+        display: grid;
+        grid-template-columns:repeat(auto-fill, 100px);
+      }
+      .item {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .item:nth-child(even) {
+        background-color: violet;
+      }
+    /* auto fit => gridnya berhenti di elemen terakhir walaupun masih tersedi ruang untuk grid lain
+    auto fill => gridnya berakhir di paling akhir walaupun grid tersebut
+    disclaimer !!
+    perbedaan apabila itemnya lebih sedikit
+    */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+     <!--<div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>--> 
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+instalasi tailwind CLI
+
+npm init -y = untuk mengunculkan informasi secara default seperti nama aplikasi, dll
+npm install -D tailwindcss = menginstal modul-modul tailwind
+npx tailwindcss init  = 
+npm i -D postcss autoprefixer = menginstal tambahan yang dibutuhkan
+npm uninstall tailwindcss = untuk menghapus css
+
+npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch

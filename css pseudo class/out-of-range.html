@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>out-of-range | pseudo class</title>
+    <!--pemilih memilih semua elemen dengan nilai yang berada di luar rentang yang ditentukan.
+    contoh input number maxsimal 10 jika di isi dengan 12 atau selebihnya akan muncul warna atau notifikasi-->
+    <style>
+        input[type="number"]:out-of-range{
+            border: 2px solid blue;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <form action="">
+        <input type="number" min="5" max="10" >
+        <input type="email" name="email" id="email" placeholder="email" required>
+    </form>
+
+    <h1 class="judul">Muhammad Susilo</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.<br /></p>
+    <div><p>Lorem ipsum dolor sit amet. <br /></p></div>
+    <p>Lorem ipsum dolor sit amet. <br /></p>
+    <p>Lorem ipsum dolor sit amet. <br /></p>
+    <p>Lorem ipsum dolor sit amet. <br /></p>
+  </body>
+</html>
